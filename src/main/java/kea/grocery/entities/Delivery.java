@@ -31,5 +31,9 @@ public class Delivery {
 
     private double totalWeightInGrams = 0.0;
 
+    public int getTotalWeightInKG() {
+        return (int) Math.ceil((double)totalWeightInGrams / 1000);
+    }
+
 
 }
