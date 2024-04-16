@@ -1,4 +1,4 @@
-package kea.grocery.dto;
+package dat3.grocery.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

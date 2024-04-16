@@ -1,10 +1,10 @@
-package kea.grocery.controllers;
+package dat3.grocery.controllers;
 
 
-import kea.grocery.dto.OrderRequest;
-import kea.grocery.entities.ProductOrder;
-import kea.grocery.services.ProductOrderService;
-import kea.grocery.services.ProductService;
+import dat3.grocery.dto.OrderRequest;
+import dat3.grocery.entities.ProductOrder;
+import dat3.grocery.services.ProductOrderService;
+import dat3.grocery.services.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;

@@ -1,14 +1,11 @@
-package kea.grocery.services;
+package dat3.grocery.services;
 
-import kea.grocery.entities.Product;
-import kea.grocery.entities.ProductOrder;
-import kea.grocery.entities.Van;
-import kea.grocery.reposities.ProductOrderRepository;
-import kea.grocery.reposities.ProductRepository;
-import kea.grocery.reposities.VanRepository;
+import dat3.grocery.entities.ProductOrder;
+import dat3.grocery.reposities.ProductRepository;
+import dat3.grocery.entities.Product;
+import dat3.grocery.reposities.ProductOrderRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import kea.grocery.services.ProductService;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
@@ -21,7 +18,7 @@ public class ProductOrderService {
     private final ProductService productService;
 
 
-    public ProductOrderService(ProductOrderRepository productOrderRepository, ProductRepository productRepository,  ProductService productService) {
+    public ProductOrderService(ProductOrderRepository productOrderRepository, ProductRepository productRepository, ProductService productService) {
         this.productOrderRepository = productOrderRepository;
 
         this.productService = productService;

@@ -1,4 +1,4 @@
-package kea.grocery.dto;
+package dat3.grocery.dto;
 
 import lombok.Getter;
 import lombok.Setter;

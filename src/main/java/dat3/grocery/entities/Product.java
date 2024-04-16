@@ -1,4 +1,4 @@
-package kea.grocery.entities;
+package dat3.grocery.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

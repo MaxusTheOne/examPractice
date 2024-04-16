@@ -1,7 +1,7 @@
-package kea.grocery.services;
+package dat3.grocery.services;
 
-import kea.grocery.entities.Product;
-import kea.grocery.reposities.ProductRepository;
+import dat3.grocery.reposities.ProductRepository;
+import dat3.grocery.entities.Product;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @Service
 public class ProductService {
-    private final ProductRepository ProductRepository;
+    private final dat3.grocery.reposities.ProductRepository ProductRepository;
     private final ProductRepository productRepository;
 
     public ProductService(ProductRepository ProductRepository, ProductRepository productRepository){

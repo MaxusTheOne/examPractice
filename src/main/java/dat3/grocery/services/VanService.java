@@ -1,8 +1,8 @@
-package kea.grocery.services;
+package dat3.grocery.services;
 
-import kea.grocery.entities.Delivery;
-import kea.grocery.entities.Van;
-import kea.grocery.reposities.VanRepository;
+import dat3.grocery.entities.Delivery;
+import dat3.grocery.entities.Van;
+import dat3.grocery.reposities.VanRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,8 +1,8 @@
-package kea.grocery.controllers;
+package dat3.grocery.controllers;
 
 
-import kea.grocery.entities.Product;
-import kea.grocery.services.ProductService;
+import dat3.grocery.entities.Product;
+import dat3.grocery.services.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

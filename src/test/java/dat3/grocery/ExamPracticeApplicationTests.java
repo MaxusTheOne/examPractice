@@ -1,4 +1,4 @@
-package kea.grocery;
+package dat3.grocery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

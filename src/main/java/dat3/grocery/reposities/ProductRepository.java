@@ -1,6 +1,6 @@
-package kea.grocery.reposities;
+package dat3.grocery.reposities;
 
-import kea.grocery.entities.Product;
+import dat3.grocery.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

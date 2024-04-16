@@ -1,12 +1,10 @@
-package kea.grocery.services;
+package dat3.grocery.services;
 
-import kea.grocery.dto.DeliveryDTO;
-import kea.grocery.entities.Delivery;
-import kea.grocery.entities.ProductOrder;
-import kea.grocery.entities.Van;
-import kea.grocery.reposities.DeliveryRepository;
-import kea.grocery.reposities.ProductOrderRepository;
-import kea.grocery.reposities.VanRepository;
+import dat3.grocery.entities.Delivery;
+import dat3.grocery.entities.ProductOrder;
+import dat3.grocery.entities.Van;
+import dat3.grocery.dto.DeliveryDTO;
+import dat3.grocery.reposities.DeliveryRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
