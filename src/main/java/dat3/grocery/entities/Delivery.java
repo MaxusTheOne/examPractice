@@ -18,7 +18,7 @@ public class Delivery {
     private Long id;
 
     private LocalDate deliveryDate;
-    private String fromWarehouse; //Replace with actual warehouse entity
+    private String fromWarehouse;
     private String toDestination;
 
     @ManyToOne

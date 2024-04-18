@@ -15,11 +15,9 @@ public class VanController {
 
 
     private final VanService vanService;
-    private final VanRepository vanRepository;
 
     public VanController(VanService vanService, VanService vanService1, VanRepository vanRepository) {
         this.vanService = vanService1;
-        this.vanRepository = vanRepository;
     }
 
 

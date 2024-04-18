@@ -23,7 +23,6 @@ public class DeliveryController {
         this.deliveryService = deliveryService;
     }
 
-    @PreAuthorize("")
     @PostMapping
     public ResponseEntity<Delivery> createDelivery(@RequestBody DeliveryDTO delivery) {
         try {
