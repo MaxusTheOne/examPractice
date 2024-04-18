@@ -5,12 +5,12 @@ import dat3.grocery.entities.Van;
 import dat3.grocery.services.VanService;
 import dat3.grocery.reposities.VanRepository;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
+@RequestMapping("/api/vans")
 public class VanController {
 
 
@@ -33,4 +33,10 @@ public class VanController {
             return ResponseEntity.badRequest().build();
         }
     }
+
+    @GetMapping
+    public ResponseEntity<List<Van>> getAllVans() {
+        return ResponseEntity.ok(vanService.getAllVans());
+    }
+
 }

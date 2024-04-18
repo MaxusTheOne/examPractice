@@ -5,12 +5,14 @@ import dat3.grocery.entities.Delivery;
 import dat3.grocery.services.DeliveryService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 
 
 import java.util.List;
+
 
 @RestController
 @RequestMapping("/api/deliveries")
@@ -21,6 +23,7 @@ public class DeliveryController {
         this.deliveryService = deliveryService;
     }
 
+    @PreAuthorize("")
     @PostMapping
     public ResponseEntity<Delivery> createDelivery(@RequestBody DeliveryDTO delivery) {
         try {

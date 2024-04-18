@@ -43,5 +43,8 @@ public class VanService {
         return addDeliveryToVan(delivery, van);
     }
 
+    public List<Van> getAllVans() {
+        return vanRepository.findAll();
+    }
 }
 
